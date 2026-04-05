@@ -2631,5 +2631,53 @@ input, select, textarea {
 				#footer .copyright li:first-child {
 					margin-top: 0;
 				}
+		/* ================================= */
+		/* 	CUSTOM PORTFOLIO STYLES */
+		/* ================================= */
+
+		.home-hero {
+			text-align: center;
+			padding: 2em 1em;
+		}
+
+		.profile-pic {
+			display: inline-block;
+			margin-bottom: 1.5em;
+		}
+
+		.profile-pic img {
+			width: 220px;
+			max-width: 80%;
+			height: auto;
+			border-radius: 50%;
+			display: block;
+			margin: 0 auto;
+			box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+		}
+
+		.home-hero .tagline {
+			font-size: 1.1em;
+			font-weight: 400;
+			margin-bottom: 1em;
+		}
+
+		.home-hero .intro-text {
+			max-width: 700px;
+			margin: 0 auto 1.5em auto;
+			line-height: 1.7;
+		}
+
+		.hero-buttons {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 0.75em;
+		}
+
+		.hero-buttons .button {
+			min-width: 150px;
+			text-align: center;
+		}
+		
 
 	}
