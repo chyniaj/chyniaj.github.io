@@ -2732,3 +2732,9 @@ input, select, textarea {
 	.container {
     	max-width: 1100px;
 	}
+
+/* HERO BACKGROUND FIX */
+#top {
+	background-image: none !important;
+	background-color: #1f2937 !important; /* deep charcoal */
+}
