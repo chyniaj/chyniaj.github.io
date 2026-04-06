@@ -2742,3 +2742,6 @@ input, select, textarea {
 		) !important;
 	/* background-color: #1f2937 !important; /* deep charcoal */
 }
+#top:before {
+	background: rgba(0, 0, 0, 0.4) !important;
+}
