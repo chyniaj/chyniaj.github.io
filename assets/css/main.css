@@ -2737,8 +2737,8 @@ input, select, textarea {
 #top {
 	background-image: linear-gradient(
 		135deg,
-		#1f2937,
-		#d4a373
+		#d4a373,
+		#1f2937
 		) !important;
 	/* background-color: #1f2937 !important; /* deep charcoal */
 }
