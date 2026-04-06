@@ -2745,3 +2745,12 @@ input, select, textarea {
 #top:before {
 	background: rgba(0, 0, 0, 0.4) !important;
 }
+
+.profile-pic img {
+	width: 220px;
+	height: 220px;
+	object-fit: cover; /* keeps it from stretching */
+	border-radius: 50% /* makes it a circle */
+	display: block;
+	margin: 0 auto;
+}
